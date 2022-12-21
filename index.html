@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Z-index-Overflow</title>
+		<link rel="stylesheet" href="style.css">
+		
+	
+</head>
+<body>
+
+	<h1>Z-Index</h1>
+	<section class="firstsection">
+		<div class="box-1">box-1</div>
+		<div class="box-2">box-2</div>
+		<div class="box-3">box-3</div>
+		<div class="box-4">box-4</div>
+		<div class="box-5">box-5</div>
+	</section>
+	<br>
+	<br>
+	<section class="secondsection">
+		<h1>Overflow</h1>
+		<ol>
+			<li>visible - Default. The overflow is not clipped. The content renders outside the element's box</li>
+			<li>hidden - The overflow is clipped, and the rest of the content will be invisible</li>
+			<li>scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content</li>
+			<li>auto - Similar to scroll, but it adds scrollbars only when necessary</li>
+		</ol>
+		
+		<div class="overflow">
+			<div id="overflow-visible">
+				<p>
+					You can use the overflow property when you want to have better control of the layout. 
+					The overflow property specifies what happens if content overflows an element's box.
+				</p>
+			</div>
+			<div id="overflow-hidden">
+				<p>
+					You can use the overflow property when you want to have better control of the layout. 
+					The overflow property specifies what happens if content overflows an element's box.
+				</p>
+			</div>
+			<div id="overflow-scroll">
+				<p>
+					You can use the overflow property when you want to have better control of the layout. 
+					The overflow property specifies what happens if content overflows an element's box.
+				</p>
+			</div>
+			<div id="overflow-auto">
+				<p>
+					You can use the overflow property when you want to have better control of the layout. 
+					The overflow property specifies what happens if content overflows an element's box.
+				</p>
+			</div>
+			
+		</div>
+		
+		<div class="over">
+			<ul>
+				<li>Ganesh</li>
+				<li>gopi</li>
+				<li>vel</li>
+				<li>rupu</li>
+				<li>pravin</li>
+				<li>guru ji</li>
+				<li>mani</li>
+			</ul>
+		</div>
+		
+		<div style="position: absolute;top: 1000px;">
+			<p>
+					You can use the overflow property when you want to have better control of the layout. 
+					The overflow property specifies what happens if content overflows an element's box.
+				</p>
+		</div>
+	</section>
+</body>
+</html>
